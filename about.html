@@ -1,0 +1,384 @@
+<!--
+    Full Name: Nguyen Thanh Du
+    Student Number: 668257512
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Boldonse&family=Raleway:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style-for-font.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            color: rgb(211, 1, 1);
+            text-decoration: none;
+        }
+
+        .nav-bar {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 85px;
+            color: rgb(211, 1, 1);
+        }
+
+        .nav-bar .title {
+            font-size: 92px;
+        }
+
+        .back-to-top {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            background-color: white;
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 60px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .back-to-top button {
+            background-color: transparent;
+            border: none;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+        }
+
+        .main-intro {
+            width: 100%;
+            font-size: 20px;
+            text-align: start;
+            margin-bottom: 25px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .content-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+        }
+
+        .image-wrapper .image-description {
+            font-size: 48px;
+        }
+
+        .content-box .learn-more-button {
+            position: relative;
+            right: 280px;
+            background-color: transparent;
+            border: 1px solid black;
+            cursor: pointer;
+            letter-spacing: 4px;
+            padding: 5px 10px;
+            margin-bottom: 15px;
+        }
+
+        .content-box .learn-more-button:hover {
+            text-decoration: underline;
+            border: none;
+        }
+
+        .content-box .description-content {
+            font-size: 14px;
+            line-height: 25px;
+            width: 50%;
+            text-align: start;
+            padding-bottom: 15px;
+        }
+
+        .myimage {
+            width: 600px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        .joinus-block {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            margin-bottom: 50px;
+            border: 1px solid rgb(216, 216, 216);
+            padding: 100px 80px;
+        }
+
+        .button-block {
+            display: flex;
+            gap: 40px;
+        }
+
+        .button-block button {
+            height: 50px;
+            background-color: transparent;
+            padding: 0px 15px;
+            border: 1px solid black;
+            cursor: pointer;
+            transition: background-color 0.7s ease, color 0.7s ease;
+        }
+
+        .button-block button:hover {
+            color: white;
+            background-color: black;
+            text-decoration: underline;
+            transition: 0.5s opacity ease-in-out;
+        }
+
+        .left-section {
+            padding-left: 50px;
+        }
+
+        .left-section .brand-name {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .left-section .logo-name {
+            font-size: 42px;
+            letter-spacing: 3px;
+            color: rgb(211, 1, 1);
+        }
+
+        .footer .left-section .logo img {
+            width: 100px;
+        }
+
+        .footer .info-block {
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+        }
+
+        .info-block .social-block {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .info-block .location-block {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .info-block h2 {
+            font-size: 32px;
+        }
+
+        .location-block .open-hour {
+            line-height: 30px;
+        }
+
+        .reserve-block button {
+            background-color: transparent;
+            padding: 5px 15px;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <div class="nav-bar">
+        <a href="homepage.html">
+            <div class="boldonse-regular">
+                Home
+            </div>
+        </a>
+        <h1 class="title boldonse-regular">About</h1>
+        <a href="#footer">
+            <div class="boldonse-regular">
+                Contact
+            </div>
+        </a>
+    </div>
+    <div class="back-to-top">
+        <button>
+            <img style="height: 40px;" src="img/scroll-up-icon.png">
+        </button>
+    </div>
+    <div class="main">
+        <div class="main-intro raleway-regular">
+            <div
+                style="width: 750px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <p style="margin-bottom: 10px;">
+                    Our restaurant Sushi Wara is a casual sushi spot that's serious about precision, freshness, and
+                    tradition.
+                </p>
+                <p style="margin-bottom: 10px;">
+                    We serve dinner five nights a week, offering handcrafted sushi, sashimi, and creative delicious
+                    rolls using only fresh high-quality ingredients.
+                </p>
+                <p style="margin-bottom: 10px;">
+                    We cook dishes that we love, and our menu is
+                    rich in history and heritage, taking inspiration from our favourite restaurants in Japan.
+                </p>
+                <p style="margin-bottom: 10px;">
+                    We’re proud to offer a curated beverage list including sake, wine, and signature cocktails that pair
+                    beautifully with every dish.
+                </p>
+                <p style="padding-bottom: 20px;">
+                    Whether you’re joining us for a quick bite or a full dining experience,
+                    Sushi Wara is all about detail, care, and balance in every plate.
+                </p>
+                <hr style="width: 750px; justify-content: center; text-align: center;">
+            </div>
+        </div>
+
+        <div class="content-box">
+            <div class="image-wrapper">
+                <img class="myimage" src="img/chef.jpg" alt="Chef preparing sushi at Sushi Wara restaurant">>
+                <div class="image-description teko-regular">
+                    Our story
+                </div>
+            </div>
+            <div class="description-content raleway-regular">
+                Born into a family that valued food as a way of bringing people together, Yong’s journey began in the
+                heart of his childhood kitchen, where he first learned the importance of balance, texture, and flavor.
+                His formal training started in a small sushi shop in Osaka, where he spent years perfecting the art of
+                hand-pressing nigiri and mastering the delicate techniques of traditional sushi-making. Eventually, he
+                traveled to coastal towns across Japan, immersing himself in the world of fish markets, learning to
+                source the freshest seafood with an instinct honed over time.
+            </div>
+            <a href="ourStory.html"><button class="learn-more-button raleway-regular">LEARN MORE →</button></a>
+            <hr style="width: 750px; justify-content: center; text-align: center; margin-bottom: 30px;">
+
+            <div class="image-wrapper">
+                <img class="myimage" src="img/ingredient.jpg" alt="Fresh ingredients for sushi at Sushi Wara">
+                <div class="image-description teko-regular">
+                    Our ingredients
+                </div>
+            </div>
+            <div class="description-content raleway-regular">
+                Born into a family that valued food as a way of bringing people together, Yong’s journey began in the
+                heart of his childhood kitchen, where he first learned the importance of balance, texture, and flavor.
+                His formal training started in a small sushi shop in Osaka, where he spent years perfecting the art of
+                hand-pressing nigiri and mastering the delicate techniques of traditional sushi-making. Eventually, he
+                traveled to coastal towns across Japan, immersing himself in the world of fish markets, learning to
+                source the freshest seafood with an instinct honed over time.
+            </div>
+            <a href="ouringredient.html"><button class="learn-more-button raleway-regular">LEARN MORE →</button></a>
+            <hr style="width: 750px; justify-content: center; text-align: center; margin-bottom: 50px;">
+        </div>
+    </div>
+    <div class="joinus-block">
+        <h2 class="boldonse-regular" style="letter-spacing: 3px; margin-bottom: 20px;">
+            JOIN OUR TEAM
+        </h2>
+        <p class="teko-regular" style="font-size: 20px; margin-bottom: 40px;">
+            We’re looking for talented bakers, managers, and more to help us grow our business and spread our culture of
+            craft to new countries and states.
+        </p>
+        <div class="button-block">
+            <a href="career.html"> <button>
+                    CAREER OPPORTUNITIES
+                </button></a>
+            <button>
+                PRESS
+            </button>
+        </div>
+    </div>
+    <div id="footer" class="footer">
+        <div class="left-section">
+            <div class="brand-name">
+                <div class="logo">
+                    <img src="img/logo.png" alt="sushi wara logo">
+                </div>
+                <div class="logo-name boldonse-regular">
+                    SUSHI WARA
+                </div>
+            </div>
+            <div class="info-block raleway-regular">
+                <div class="social-block">
+                    <h2 class="teko-regular">CONTACT</h2>
+                    Email: myemail@gmail.com <br>
+                    Tel: 250 123 4567
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2609.23309572402!2d-123.97239322347951!3d49.158183671374296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5488a393530015ed%3A0x15e4ff0f12b80fd8!2s900%20Fifth%20St%2C%20Nanaimo%2C%20BC%20V9R%205S5!5e0!3m2!1sen!2sca!4v1743790798437!5m2!1sen!2sca"
+                        width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="location-block">
+                    <div class="location">
+                        <h2 class="teko-regular">LOCATION</h2>
+                        900 Fifth St,
+                        Nanaimo,
+                        BC V9R 5S5
+                    </div>
+                    <div class="open-hour">
+                        <h2 class="teko-regular">OPENING HOURS</h2>
+                        Monday, Thursday and Friday <br>
+                        from 11AM-8PM <br>
+                        Saturday, and Sunday <br>
+                        from 5PM-11PM
+
+                    </div>
+                </div>
+                <div class="reserve-block">
+                    <h2 class="teko-regular">
+                        RESERVATIONS
+                    </h2>
+                    <button>
+                        MAKE A RESERVATION
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="right-section">
+
+        </div>
+    </div>
+
+    <script>
+        let backToTop = document.querySelector(".back-to-top");
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 50) {
+                backToTop.style.opacity = "1";
+            }
+            else {
+                backToTop.style.opacity = "0";
+            }
+        });
+        backToTop.addEventListener("click", () => {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+</body>
+
+</html>

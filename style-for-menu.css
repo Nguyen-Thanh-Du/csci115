@@ -1,0 +1,56 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ .nav-bar {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 85px;
+     margin-bottom: 50px;
+ }
+
+ .nav-bar {
+     font-size: 26px;
+     color: rgb(211, 1, 1);
+ }
+
+ a {
+    text-decoration: none;
+    color: rgb(211, 1, 1)
+ }
+
+ .nav-bar h1 {
+     font-size: 92px;
+ }
+
+ .menu-tab {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     gap: 150px;
+     margin-bottom: 30px;
+ }
+
+.menu-tab button {
+    font-size: 36px;
+    background-color: transparent;
+    border: none;
+}
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.menu-section .main {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+.small-section table td {
+    line-height: 30px;
+}
+

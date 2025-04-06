@@ -1,0 +1,301 @@
+<!--
+    Full Name: Nguyen Thanh Du
+    Student Number: 668257512
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Boldonse&family=Raleway:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style-for-menu.css">
+    <link rel="stylesheet" href="style-for-font.css">
+</head>
+
+<body>
+    <div class="nav-bar boldonse-regular">
+        <a href="homepage.html">
+            <div class="raleway-regular">Home</div>
+        </a>
+        <h1 class="boldonse-regular">Menu</h1>
+        <a href="about.html">
+            <div class="raleway-regular">Contact</div>
+        </a>
+    </div>
+    <div class="menu-tab">
+        <button class="raleway-regular" onclick="showMenu('food')">Food</button>
+        <button class="raleway-regular" onclick="showMenu('drink')">Drink</button>
+        <button class="raleway-regular" onclick="showMenu('dessert')">Dessert</button>
+    </div>
+    <hr style="width: 1000px; margin: 0 auto;">
+
+    <div id="food" class="menu-section" style="display: none;">
+        <h1>Food</h1>
+        <div class="main">
+            <div class="left-section">
+                <div class="small-section raleway-regular">
+                    <table>
+                        <tr>
+                            <th>Appetizer</th>
+                        </tr>
+                        <tr>
+                            <td>miso soup — tofu, seaweed, green onion</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Tako sunomono - octopus, glass noodle, carrot, beets, Yuzu/Japanese citrus</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>Ebi sunomono - prawn, glass noodle, carrot, beets, Yuzu/Japanese citrus</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>Green Salad</td>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <td>salmon tataki — seared salmon, ponzu, scallion </td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td>agedashi tofu — crispy tofu, tentsuyu broth, daikon</td>
+                            <td>11</td>
+                        </tr>
+                        <tr>
+                            <td>Sushi Pizza - breaded sushi rice, topped with spicy tuna, avocado, cucumber, tobiko</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <th>
+                                Yakisoba
+                            </th>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">wheat flour noodle stir-fried dish / change to Udon noodle
+                                $1</td>
+                        </tr>
+                        <tr>
+                            <td>Tofu Yakisoba - deep-Fried tofu with vege negi, served with iron plate</td>
+                            <td>17</td>
+                        </tr>
+                        <tr>
+                            <td>Tori-Yakisoba - grilled chicken stir-fried with vegetables, negi served with iron plate
+                            </td>
+                            <td>18</td>
+                        </tr>
+                        <tr>
+                            <td>Gyu-Yakisoba - marinated beef stir-fried with vegetables, negi served with iron plate
+                            </td>
+                            <td>19</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="small-section raleway-regular">
+                    <table>
+                        <tr>
+                            <th>Classic rolls</th>
+                        </tr>
+                        <tr>
+                            <td>Creamy California Roll — (8pcs) imitation crab meat, cucumber, avocado</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>Avo-q Roll - (8pcs) avocado, cucumber</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>Dynamite Roll - (6pcs) prawn tempura, deep-fried yam, avocado, cucumber</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>Spicy Tuna Roll - (8pcs) spicy tuna, cucumber, spicy mayo</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>Alaskan Roll — (8pcs) avocado, cucumber, mayonnaise, tobiko, salmon topped, dressing
+                                sauce </td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>Bc Roll — (6pcs) grilled salmon skin, cucumber</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>Yam Avocado Roll - (6pcs) deep-fried sweet potato, cucumber, avocado</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <th>Signature rolls</th>
+                        </tr>
+                        <tr>
+                            <td>Shrimp King Roll - (8pcs) Deep-fried asparagus, avocado, topped with spicy crab meat,
+                                grilled shrimp, negi, tobiko</td>
+                            <td>21</td>
+                        </tr>
+                        <tr>
+                            <td>Tsunami Roll - (8pcs) Spicy Tuna, 2pcs Prawn tempura, cucumber, Topped with aburi tuna,
+                                tobiko,</td>
+                            <td>23</td>
+                        </tr>
+                        <tr>
+                            <td>Green Dragon Roll - (8pcs) crab meat, BBQ eel, cucumber, avocado, topped with avocado,
+                                unagi sauce, mayonnaise, tobiko</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>Qualicum Beach Roll - (8pcs) spicy crab meat, cucumber, cream cheese, jalapeno, topped
+                                with aburi scallop, tobiko, mango sauce, unagi sauce</td>
+                            <td>19</td>
+                        </tr>
+                        <tr>
+                            <td>Popcorn Roll - lettuce, Cucumber, Avo, Crabmeat, Prawn tempura tobiko, Deep-fried
+                                Scallop with unagi sauce, Spicy mayo </td>
+                            <td>21</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="drink" class="menu-section" style="display: none;">
+        <h1>Drink</h1>
+        <div class="main">
+            <div class="left-section">
+                <div class="small-section raleway-regular">
+                    <table>
+                        <tr>
+                            <th>Japanese beers</th>
+                        </tr>
+                        <tr>
+                            <td>Asahi Super Dry - (330ml)
+                                Type: Pale Lager ABV. 5.0% Dry as in crisp with no sweetness in the taste, light and not
+                                much aftertaste.</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>Sapporo Premium - (355ml)
+                                Type: Pale Lager ABV. 5.0% Amazing crisp taste, refreshing flavor and refined bitterness
+                                to leave a clean finish.
+                            </td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <th>
+                                Domestic beers
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>Molson Canadian
+                                (341ml) Type: Lager Alcohol: 5% Brewed with Canadian water, prairie barley and no
+                                preservatives, this lager is as clean, crisp and fresh.</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>Kokanee
+                                (341ml) Type: Pilsner Alcohol: 5% Kokanee is a Canadian lager that provides a clean
+                                refreshing taste experience, with a very smooth finish.</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>Coors Light
+                                (341ml) Type: Lager Alcohol: 4% Coors Light is lagered, filtered and packaged cold to
+                                ensure that every Coors Light is as refreshing and crisp as the Rockies themselves.</td>
+                            <td>7</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="small-section raleway-regular">
+                    <table>
+                        <tr>
+                            <th>Wine</th>
+                        </tr>
+                        <tr>
+                            <td>Sauvignon Blanc - Kim Crawford Marlborough (6oz)
+                                Type: White Wine - Sauvignon Blanc / Region: Marlborough / Alcohol: 13%
+                            </td>
+                            <td>12</td>
+                        </tr>
+                        <tr>
+                            <td>Chardonnay - Josh Cellars (6oz)
+                                Type: White Wine - Chardonnay Region: California / Sub-region: Sonoma / AIcohoI: 13.5%
+                            </td>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <td>Merlot - Sterling Vintner's Collection (6oz)
+                                Type: Red Wine - Merlot Region: California Sub-region: Other / AIcohol: 14.5%
+                            </td>
+                            <td>12</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="dessert" class="menu-section raleway-regular" style="display: none; line-height: 30px;">
+        <h1>Dessert</h1>
+        <table>
+            <tr>
+                <td>
+                    mochi ice cream — assorted flavors
+                </td>
+                <td>
+                    8
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    black sesame cheesecake — whipped cream 
+                </td>
+                <td>
+                    10
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    matcha tiramisu — espresso-soaked ladyfingers, matcha cream 
+                </td>
+                <td>
+                    12
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    matcha tiramisu — espresso-soaked ladyfingers, matcha cream 
+                </td>
+                <td>
+                    12
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    yuzu sorbet — bright citrus finish
+                </td>
+                <td>
+                    7
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <script src="script2.js"></script>
+</body>
+
+</html>
